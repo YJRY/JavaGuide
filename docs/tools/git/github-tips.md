@@ -23,17 +23,17 @@ tag:
 
 ## 个性化 Github 首页
 
-Github 目前支持在个人主页自定义展示一些内容。展示效果如下图所示。
+Github 目前支持在个人主页自定义展示一些内容。展示效果如下图所示：
 
 ![个性化首页展示效果](https://oss.javaguide.cn/java-guide-blog/image-20210616221212259.png)
 
-想要做到这样非常简单，你只需要创建一个和你的 Github 账户同名的仓库，然后自定义`README.md`的内容即可。
+想要做到这样非常简单，你只需要创建一个和你的 Github 账户同名的仓库，然后自定义 `README.md` 的内容即可。
 
-展示在你主页的自定义内容就是`README.md`的内容（_不会 Markdown 语法的小伙伴自行面壁 5 分钟_）。
+展示在你主页的自定义内容就是 `README.md` 的内容（_不会 Markdown 语法的小伙伴自行面壁 5 分钟_）。
 
 ![创建一个和你的Github账户同名的仓库](https://oss.javaguide.cn/java-guide-blog/image-20201107110309341.png)
 
-这个也是可以玩出花来的！比如说：通过 [github-readme-stats](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/anuraghazra/github-readme-stats) 这个开源项目，你可以 README 中展示动态生成的 GitHub 统计信息。展示效果如下图所示。
+这个也是可以玩出花来的！比如说：通过 [github-readme-stats](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/anuraghazra/github-readme-stats) 这个开源项目，你可以在 README 中展示动态生成的 GitHub 统计信息。展示效果如下图所示：
 
 ![通过github-readme-stats动态生成GitHub统计信息 ](https://oss.javaguide.cn/java-guide-blog/image-20210616221312426.png)
 
@@ -41,7 +41,7 @@ Github 目前支持在个人主页自定义展示一些内容。展示效果如�
 
 ## 自定义项目徽章
 
-你在 Github 上看到的项目徽章都是通过 [https://shields.io/](https://shields.io/) 这个网站生成的。我的 JavaGuide 这个项目的徽章如下图所示。
+你在 Github 上看到的项目徽章都是通过 [https://shields.io/](https://shields.io/) 这个网站生成的。我的 JavaGuide 这个项目的徽章如下图所示：
 
 ![项目徽章](https://oss.javaguide.cn/2020-11/image-20201107143136559.png)
 
@@ -59,7 +59,7 @@ Github 目前支持在个人主页自定义展示一些内容。展示效果如�
 
 ![](https://oss.javaguide.cn/github/dootask/repobeats.png)
 
-地址：<https://repobeats.axiom.co/> 。
+地址：<https://repobeats.axiom.co/>。
 
 ## Github 表情
 
@@ -83,9 +83,9 @@ Github 前段时间推出的 Codespaces 可以提供类似 VS Code 的在线 IDE
 
 ### Chrome 插件 SourceGraph
 
-我不想将项目 clone 到本地的时候一般就会使用这种方式来阅读项目源代码。SourceGraph 不仅可以让我们在 Github 优雅的查看代码，它还支持一些骚操作，比如：类之间的跳转、代码搜索等功能。
+我不想将项目 clone 到本地的时候一般就会使用这种方式来阅读项目源代码。SourceGraph 不仅可以让我们在 Github 优雅地查看代码，它还支持一些骚操作，比如：类之间的跳转、代码搜索等功能。
 
-当你下载了这个插件之后，你的项目主页会多出一个小图标如下图所示。点击这个小图标即可在线阅读项目源代码。
+当你下载了这个插件之后，你的项目主页会多出一个小图标，如下图所示。点击这个小图标即可在线阅读项目源代码。
 
 ![](https://oss.javaguide.cn/2020-11/image-20201107145749659.png)
 
@@ -97,7 +97,7 @@ Github 前段时间推出的 Codespaces 可以提供类似 VS Code 的在线 IDE
 
 先把项目克隆到本地，然后使用自己喜欢的 IDE 来阅读。可以说是最酸爽的方式了！
 
-如果你想要深入了解某个项目的话，首选这种方式。一个`git clone` 就完事了。
+如果你想要深入了解某个项目的话，首选这种方式。一个 `git clone` 就完事了。
 
 ## 扩展 Github 的功能
 
@@ -133,11 +133,11 @@ Github 前段时间推出的 Codespaces 可以提供类似 VS Code 的在线 IDE
 
 ## GitHub Actions 很强大
 
-你可以简单地将 GitHub Actions 理解为 Github 自带的 CI/CD ，通过 GitHub Actions 你可以直接在 GitHub 构建、测试和部署代码，你还可以对代码进行审查、管理 API、分析项目依赖项。总之，GitHub Actions 可以自动化地帮你完成很多事情。
+你可以简单地将 GitHub Actions 理解为 Github 自带的 CI/CD，通过 GitHub Actions 你可以直接在 GitHub 构建、测试和部署代码，你还可以对代码进行审查、管理 API、分析项目依赖项。总之，GitHub Actions 可以自动化地帮你完成很多事情。
 
-关于 GitHub Actions 的详细介绍，推荐看一下阮一峰老师写的 [GitHub Actions 入门教程](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html) 。
+关于 GitHub Actions 的详细介绍，推荐看一下阮一峰老师写的 [GitHub Actions 入门教程](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)。
 
-GitHub Actions 有一个官方市场，上面有非常多别人提交的 Actions ，你可以直接拿来使用。
+GitHub Actions 有一个官方市场，上面有非常多别人提交的 Actions，你可以直接拿来使用。
 
 ![](https://oss.javaguide.cn/github/javaguide/image-20211227100147433.png)
 
